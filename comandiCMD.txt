@@ -1,0 +1,3465 @@
+Microsoft Windows [Versione 10.0.19045.3324]
+(c) Microsoft Corporation. Tutti i diritti sono riservati.
+
+C:\Users\Lorenzo>D:
+
+D:\>cd D:\ProgrammingFolder\Siti\NodeTest
+
+D:\ProgrammingFolder\Siti\NodeTest>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (nodetest)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to D:\ProgrammingFolder\Siti\NodeTest\package.json:
+
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+npm notice
+npm notice New minor version of npm available! 9.6.7 -> 9.8.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.8.1
+npm notice Run npm install -g npm@9.8.1 to update!
+npm notice
+
+D:\ProgrammingFolder\Siti\NodeTest>npm install -g npm@9.8.1
+
+removed 16 packages, and changed 43 packages in 3s
+
+28 packages are looking for funding
+  run `npm fund` for details
+
+D:\ProgrammingFolder\Siti\NodeTest>npm fund
+nodetest@1.0.0
+
+
+D:\ProgrammingFolder\Siti\NodeTest>npm i express js
+
+added 61 packages, and audited 62 packages in 7s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\ProgrammingFolder\Siti\NodeTest>npm fund
+nodetest@1.0.0
++-- https://github.com/sponsors/ljharb
+|   `-- qs@6.11.0, side-channel@1.0.4, call-bind@1.0.2, get-intrinsic@1.2.1, has-proto@1.0.1, has-symbols@1.0.3, object-inspect@1.12.3
+`-- https://github.com/sponsors/feross
+    `-- safe-buffer@5.2.1
+
+
+D:\ProgrammingFolder\Siti\NodeTest>npm --save--dev
+npm <command>
+
+Usage:
+
+npm install        install all the dependencies in your project
+npm install <foo>  add the <foo> dependency to your project
+npm test           run this project's tests
+npm run <foo>      run the script named <foo>
+npm <command> -h   quick help on <command>
+npm -l             display usage info for all commands
+npm help <term>    search for help on <term> (in a browser)
+npm help npm       more involved overview (in a browser)
+
+All commands:
+
+    access, adduser, audit, bugs, cache, ci, completion,
+    config, dedupe, deprecate, diff, dist-tag, docs, doctor,
+    edit, exec, explain, explore, find-dupes, fund, get, help,
+    help-search, hook, init, install, install-ci-test,
+    install-test, link, ll, login, logout, ls, org, outdated,
+    owner, pack, ping, pkg, prefix, profile, prune, publish,
+    query, rebuild, repo, restart, root, run-script, search,
+    set, shrinkwrap, star, stars, start, stop, team, test,
+    token, uninstall, unpublish, unstar, update, version, view,
+    whoami
+
+Specify configs in the ini-formatted file:
+    C:\Users\Lorenzo\.npmrc
+or on the command line via: npm <command> --key=value
+
+More configuration info: npm help config
+Configuration fields: npm help 7 config
+
+npm@9.8.1 C:\Users\Lorenzo\AppData\Roaming\npm\node_modules\npm
+
+D:\ProgrammingFolder\Siti\NodeTest>npm --save-dev nodemon dotenv
+Unknown command: "nodemon"
+
+To see a list of supported npm commands, run:
+  npm help
+
+D:\ProgrammingFolder\Siti\NodeTest>npm i --save-dev nodemon dotenv
+
+added 34 packages, and audited 96 packages in 6s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\ProgrammingFolder\Siti\NodeTest>npm fund
+nodetest@1.0.0
++-- https://github.com/motdotla/dotenv?sponsor=1
+|   `-- dotenv@16.3.1
++-- https://opencollective.com/nodemon
+| | `-- nodemon@3.0.1
+| `-- https://paulmillr.com/funding/
+|   | `-- chokidar@3.5.3
+|   `-- https://github.com/sponsors/jonschlinkert
+|       `-- picomatch@2.3.1
++-- https://github.com/sponsors/ljharb
+|   `-- qs@6.11.0, side-channel@1.0.4, call-bind@1.0.2, get-intrinsic@1.2.1, has-proto@1.0.1, has-symbols@1.0.3, object-inspect@1.12.3
+`-- https://github.com/sponsors/feross
+    `-- safe-buffer@5.2.1
+
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run dev
+npm ERR! Missing script: "dev"
+npm ERR!
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: C:\Users\Lorenzo\AppData\Local\npm-cache\_logs\2023-08-22T09_11_46_452Z-debug-0.log
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+[nodemon] clean exit - waiting for changes before restart
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:4
+app.get('/', ());
+              ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:5
+    ));
+    ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:5
+    res.render));
+              ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:5
+    res.render('index.ejs');)));
+                            ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:6
+    )));
+    ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:6
+    })));
+      ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+^C^CTerminare il processo batch (S/N)? S
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+[nodemon] restarting due to changes...
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:5:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:7:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+Error: Cannot find module 'ejs'
+Require stack:
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\express.js
+- D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\index.js
+- D:\ProgrammingFolder\Siti\NodeTest\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at new View (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:587:12)
+    at ServerResponse.render (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\response.js:1039:7)
+    at D:\ProgrammingFolder\Siti\NodeTest\server.js:7:9
+    at Layer.handle [as handle_request] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\route.js:144:13)
+^C^CTerminare il processo batch (S/N)?
+^C
+D:\ProgrammingFolder\Siti\NodeTest>npm install ejs
+
+added 12 packages, and audited 108 packages in 3s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\ProgrammingFolder\Siti\NodeTest>npm fund
+nodetest@1.0.0
++-- https://github.com/motdotla/dotenv?sponsor=1
+|   `-- dotenv@16.3.1
++-- https://opencollective.com/nodemon
+| | `-- nodemon@3.0.1
+| `-- https://paulmillr.com/funding/
+|   | `-- chokidar@3.5.3
+|   `-- https://github.com/sponsors/jonschlinkert
+|       `-- picomatch@2.3.1
++-- https://github.com/chalk/chalk?sponsor=1
+| | `-- chalk@4.1.2
+| `-- https://github.com/chalk/ansi-styles?sponsor=1
+|     `-- ansi-styles@4.3.0
++-- https://github.com/sponsors/ljharb
+|   `-- qs@6.11.0, side-channel@1.0.4, call-bind@1.0.2, get-intrinsic@1.2.1, has-proto@1.0.1, has-symbols@1.0.3, object-inspect@1.12.3
+`-- https://github.com/sponsors/feross
+    `-- safe-buffer@5.2.1
+
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+    res.render('index.ejs', { name: 'John' }});
+                                           ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+    res.render('index.ejs', { name: 'John' }});
+                                           ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+    res.render('index.ejs', { user: 'John' }});
+                                           ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\path-to-regexp\index.js:63
+  path = ('^' + path + (strict ? '' : path[path.length - 1] === '/' ? '?' : '/?'))
+                                                ^
+
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (D:\ProgrammingFolder\Siti\NodeTest\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\index.js:505:15)
+    at app.<computed> [as get] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:498:30)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:10:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\path-to-regexp\index.js:63
+  path = ('^' + path + (strict ? '' : path[path.length - 1] === '/' ? '?' : '/?'))
+                                                ^
+
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (D:\ProgrammingFolder\Siti\NodeTest\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\index.js:505:15)
+    at app.<computed> [as get] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:498:30)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:10:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:10
+app.get('/login', (req, res) => {');
+                                 ^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\path-to-regexp\index.js:63
+  path = ('^' + path + (strict ? '' : path[path.length - 1] === '/' ? '?' : '/?'))
+                                                ^
+
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (D:\ProgrammingFolder\Siti\NodeTest\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\router\index.js:505:15)
+    at app.<computed> [as post] (D:\ProgrammingFolder\Siti\NodeTest\node_modules\express\lib\application.js:498:30)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:20
+app.listen(3000);
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:18
+app.post('/register', (req, res) => {}
+                                     ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+
+^C^CTerminare il processo batch (S/N)? N
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+^C^CTerminare il processo batch (S/N)? S
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+^C^CTerminare il processo batch (S/N)? S
+
+D:\ProgrammingFolder\Siti\NodeTest>npm i bcrypt
+
+added 52 packages, and audited 160 packages in 5s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\ProgrammingFolder\Siti\NodeTest>npm fund
+nodetest@1.0.0
++-- https://github.com/motdotla/dotenv?sponsor=1
+|   `-- dotenv@16.3.1
++-- https://opencollective.com/nodemon
+| | `-- nodemon@3.0.1
+| `-- https://paulmillr.com/funding/
+|   | `-- chokidar@3.5.3
+|   `-- https://github.com/sponsors/jonschlinkert
+|       `-- picomatch@2.3.1
++-- https://github.com/sponsors/sindresorhus
+|   `-- make-dir@3.1.0
++-- https://github.com/sponsors/isaacs
+|   `-- rimraf@3.0.2, glob@7.2.3
++-- https://github.com/sponsors/feross
+|   `-- safe-buffer@5.2.1
++-- https://github.com/chalk/chalk?sponsor=1
+| | `-- chalk@4.1.2
+| `-- https://github.com/chalk/ansi-styles?sponsor=1
+|     `-- ansi-styles@4.3.0
+`-- https://github.com/sponsors/ljharb
+    `-- qs@6.11.0, side-channel@1.0.4, call-bind@1.0.2, get-intrinsic@1.2.1, has-proto@1.0.1, has-symbols@1.0.3, object-inspect@1.12.3
+
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:5
+const users = [];
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:3
+const bcry
+      ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:29
+    }
+    ^
+
+SyntaxError: Missing catch or finally after try
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:29
+    } catch {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+^C^CTerminare il processo batch (S/N)?
+^C
+D:\ProgrammingFolder\Siti\NodeTest>npm i passport passport-local express-session express-flash
+
+added 11 packages, and audited 171 packages in 4s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\ProgrammingFolder\Siti\NodeTest>npm fund
+nodetest@1.0.0
++-- https://github.com/sponsors/jaredhanson
+|   `-- passport@0.6.0
++-- https://github.com/motdotla/dotenv?sponsor=1
+|   `-- dotenv@16.3.1
++-- https://opencollective.com/nodemon
+| | `-- nodemon@3.0.1
+| `-- https://paulmillr.com/funding/
+|   | `-- chokidar@3.5.3
+|   `-- https://github.com/sponsors/jonschlinkert
+|       `-- picomatch@2.3.1
++-- https://github.com/sponsors/sindresorhus
+|   `-- make-dir@3.1.0
++-- https://github.com/sponsors/isaacs
+|   `-- rimraf@3.0.2, glob@7.2.3
++-- https://github.com/sponsors/feross
+|   `-- safe-buffer@5.2.1
++-- https://github.com/chalk/chalk?sponsor=1
+| | `-- chalk@4.1.2
+| `-- https://github.com/chalk/ansi-styles?sponsor=1
+|     `-- ansi-styles@4.3.0
+`-- https://github.com/sponsors/ljharb
+    `-- qs@6.11.0, side-channel@1.0.4, call-bind@1.0.2, get-intrinsic@1.2.1, has-proto@1.0.1, has-symbols@1.0.3, object-inspect@1.12.3
+
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:5
+const init
+      ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:5
+const initialize
+      ^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:5
+const initialize
+      ^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:6
+ini
+^
+
+ReferenceError: ini is not defined
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+    passport,
+    ^
+
+ReferenceError: passport is not defined
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:5
+function initialize(passport) {
+^^^^^^^^
+
+SyntaxError: Unexpected token 'function'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:5
+    passport.use(new LocalStrategy({ usernameField: 'email' }), authenticateUser);
+    ^
+
+SyntaxError: Identifier 'passport' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:10
+            if (await bcrypt.compare(password, user.password)) {
+                      ^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:11
+            if (await bcrypt.compare(password, user.password)) {
+                      ^^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(
+^
+
+TypeError: initializePassport is not a function
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:20:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:25
+modules.exports = initialize;
+^
+
+ReferenceError: modules is not defined
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:25:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:20:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(passport, e);
+                             ^
+
+ReferenceError: e is not defined
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:30)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(passport, (e));
+                              ^
+
+ReferenceError: e is not defined
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:31)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(passport, (email => users.find(user => user.email === email));
+                                                                               ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(passport, (email => users.find(user => user.email === email));
+                                                                               ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(passport, email => return users.find(user => user.email === email));
+                                      ^^^^^^
+
+SyntaxError: Unexpected token 'return'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:7
+initializePassport(passport, email => return users.find(user => user.email === email));
+                                      ^^^^^^
+
+SyntaxError: Unexpected token 'return'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:10
+        return users.find(user => user.email === email));
+                                                       ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:8
+const flash = require('express-flash');
+      ^
+
+SyntaxError: Identifier 'flash' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:8
+const flash = require('express-flash');
+      ^
+
+SyntaxError: Identifier 'flash' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:8
+const flash = require('express-flash');
+      ^
+
+SyntaxError: Identifier 'flash' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:8
+const initializePassport = require('./passport-config');
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:9
+const flash = require('express-flash');
+      ^
+
+SyntaxError: Identifier 'flash' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:9
+const flash = require('express-flash');
+      ^
+
+SyntaxError: Identifier 'flash' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:21
+app.get('/', (req, res) => {
+   ^
+
+SyntaxError: Unexpected token '.'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:9:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:11:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:3
+const express = require('express');
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:56
+app.listen(3000);
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:56
+app.listen(3000);
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:57
+app.listen(3000);
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:57
+app.listen(3000);
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:39
+app.post('/login', passport. => {
+                             ^^
+
+SyntaxError: Unexpected token '=>'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:39
+app.post('/login', passport. => {
+                             ^^
+
+SyntaxError: Unexpected token '=>'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:39
+app.post('/login', passport.Authenticator => {
+
+
+SyntaxError: Malformed arrow function parameter list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:39
+app.post('/login', passport.Authenticator => {
+
+
+SyntaxError: Malformed arrow function parameter list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:39
+app.post('/login', passport. => {
+                             ^^
+
+SyntaxError: Unexpected token '=>'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:39
+app.post('/login', passport. => {
+                             ^^
+
+SyntaxError: Unexpected token '=>'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:39
+app.post('/login', passport.authenticate('local', {);
+                                                   ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:39
+app.post('/login', passport.authenticate('local', {});
+                                                    ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:43
+})
+ ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:43
+})
+ ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+^C^CTerminare il processo batch (S/N)?
+^CImpossibile aprire il dispositivo o il file specificato.
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+^C^CTerminare il processo batch (S/N)?
+^CImpossibile aprire il dispositivo o il file specificato.
+
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47
+  if (!verify) { throw new TypeError('LocalStrategy requires a verify callback'); }
+                 ^
+
+TypeError: LocalStrategy requires a verify callback
+    at new Strategy (D:\ProgrammingFolder\Siti\NodeTest\node_modules\passport-local\lib\strategy.js:47:24)
+    at initialize (D:\ProgrammingFolder\Siti\NodeTest\passport-config.js:21:18)
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:13:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:65
+funct
+^
+
+ReferenceError: funct is not defined
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:65:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:67
+app.listen(3000);
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:68
+app.listen(3000);
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:32
+app.get('/', checkAuthenticated(req, res) => {
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:74
+app.listen(3000);
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:36
+app.get('/login', che(req, res) => {
+                  ^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:36
+app.get('/login', checkNotAuthenticated(req, res) => {
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:40
+app.post('/login', chepassport.authenticate('local', {
+                   ^
+
+ReferenceError: chepassport is not defined
+    at Object.<anonymous> (D:\ProgrammingFolder\Siti\NodeTest\server.js:40:20)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:46
+app.get('/register', che (req, res) => {
+                     ^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:46
+app.get('/register', checkNotAuthenticated (req, res) => {
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Malformed arrow function parameter list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:81
+app.listen(3000);
+
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+D:\ProgrammingFolder\Siti\NodeTest\server.js:68
+}
+^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:68
+}
+^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+^C^CTerminare il processo batch (S/N)?
+^C
+D:\ProgrammingFolder\Siti\NodeTest>npm i method-override
+
+added 2 packages, and audited 173 packages in 795ms
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+D:\ProgrammingFolder\Siti\NodeTest>npm fund
+nodetest@1.0.0
++-- https://github.com/sponsors/jaredhanson
+|   `-- passport@0.6.0
++-- https://github.com/motdotla/dotenv?sponsor=1
+|   `-- dotenv@16.3.1
++-- https://opencollective.com/nodemon
+| | `-- nodemon@3.0.1
+| `-- https://paulmillr.com/funding/
+|   | `-- chokidar@3.5.3
+|   `-- https://github.com/sponsors/jonschlinkert
+|       `-- picomatch@2.3.1
++-- https://github.com/sponsors/sindresorhus
+|   `-- make-dir@3.1.0
++-- https://github.com/sponsors/isaacs
+|   `-- rimraf@3.0.2, glob@7.2.3
++-- https://github.com/sponsors/feross
+|   `-- safe-buffer@5.2.1
++-- https://github.com/chalk/chalk?sponsor=1
+| | `-- chalk@4.1.2
+| `-- https://github.com/chalk/ansi-styles?sponsor=1
+|     `-- ansi-styles@4.3.0
+`-- https://github.com/sponsors/ljharb
+    `-- qs@6.11.0, side-channel@1.0.4, call-bind@1.0.2, get-intrinsic@1.2.1, has-proto@1.0.1, has-symbols@1.0.3, object-inspect@1.12.3
+
+
+D:\ProgrammingFolder\Siti\NodeTest>npm fund
+^CTerminare il processo batch (S/N)?
+^C
+D:\ProgrammingFolder\Siti\NodeTest>npm run devStart
+
+> nodetest@1.0.0 devStart
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+D:\ProgrammingFolder\Siti\NodeTest\server.js:13
+const initializePassport = require('./passport-config');
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+    at Module._compile (node:internal/modules/cjs/loader:1218:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.16.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+^C^CTerminare il processo batch (S/N)?
+^C
+D:\ProgrammingFolder\Siti\NodeTest>
